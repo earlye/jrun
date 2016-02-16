@@ -9,9 +9,9 @@ LOG_FILE=""
 # simple logger
 function log() {
     if [ "$LOG_FILE" != "" ]; then
-        echo "[`date -u +\"%Y-%m-%dT%H:%M:%SZ\"`] jrun.sh: $*" >> $LOG_FILE
+        echo "DEBUG [`date -u +\"%Y-%m-%dT%H:%M:%SZ\"`] jrun.sh: $*" >> $LOG_FILE
     else
-        echo "[`date -u +\"%Y-%m-%dT%H:%M:%SZ\"`] jrun.sh: $*" >&2
+        echo "DEBUG [`date -u +\"%Y-%m-%dT%H:%M:%SZ\"`] jrun.sh: $*" >&2
     fi
 }
 
