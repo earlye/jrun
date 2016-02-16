@@ -3,7 +3,7 @@
 ## It uses the git origin url to determine the vendor, maintainer, and url for each package.
 
 ## What version is this package?
-VERSION=0.1
+VERSION=0.2
 NAME=jrun
 
 ## Automatically figure out a bunch of stuff:

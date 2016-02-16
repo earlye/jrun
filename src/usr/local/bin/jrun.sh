@@ -62,7 +62,7 @@ while [ "$1" != "" ]; do
             JAVA=$1
             shift
             ;;
-        -j | --jar )
+        -j | --jar | -jar )
             shift
             JAR=$1
             log "JAR: ${JAR}"
