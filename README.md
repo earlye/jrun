@@ -15,18 +15,18 @@ options to be installed with a package.
 
 ## Options:
 
-* ** -l | --log {_log-file.log_} ** log intermediate output to the
+* *-l | --log {_log-file.log_}* log intermediate output to the
 specified {_log-file.log_}. If no {_log-file_} is specified,
 intermediate output is logged to stderr. jrun is fairly verbose, to
 aid debugging your config files.
 
-* ** -c | --config-dir {_directory_} ** scan {_directory_} for files
+* *-c | --config-dir {_directory_}* scan {_directory_} for files
 matching the glob pattern ```*.jrun.sh``` and source each file found.
 
-* ** -j {_jar-file_} ** jrun will use the specified {_jar-file_} as
+* *-j {_jar-file_}* jrun will use the specified {_jar-file_} as
 the .jar which it passes to java.
 
-* ** {_jar-parameter_} ** additional command line options to pass after the {_jar-file_}
+* *{_jar-parameter_}* additional command line options to pass after the {_jar-file_}
 
 ## Examples
 
